@@ -19,6 +19,26 @@ body{
     }
 }
 
+.for-mobile{
+    display: none;
+}
+
+@media(max-width: 779px)
+{
+    .for-mobile{
+        display: block;
+    }
+    .for-pc{
+        display: none;
+    }
+    .name{
+        font-size: 0.6rem;
+    }
+    .name h2{
+        font-size: 0.8rem;
+    }
+}
+
 @media(max-width:679px)
 {
     .fc{
