@@ -1,0 +1,46 @@
+body{
+    height: 100vh;
+}
+
+.side{
+    height: 100vh;
+}
+.fc{
+    width: 31%;
+}
+
+@media(max-width:900px)
+{
+    .fc{
+        width: 48%;
+    }
+    .rea-items{
+        flex-direction: column;
+    }
+}
+
+@media(max-width:679px)
+{
+    .fc{
+        width: 98%;
+    }
+}
+
+.rea-desc{
+    flex: 1 1 0;
+}
+.rea-img{
+    flex: 2 1 0;
+}
+.side{
+    overflow: hidden;
+}
+
+.logo-technos img{
+    margin-top: 25px;
+    height: 50px;
+}
+
+.logo-technos{
+    flex-wrap: wrap;
+}
