@@ -23,8 +23,15 @@ body{
     display: none;
 }
 
+.menu-burger{
+    display: none;
+}
+
 @media(max-width: 779px)
 {
+    .menu-burger{
+        display: block;
+    }
     .for-mobile{
         display: block;
     }
@@ -36,6 +43,31 @@ body{
     }
     .name h2{
         font-size: 0.8rem;
+    }
+    .side{
+        transform: translateX(-100%);
+    }
+    .menu-burger:hover{
+        cursor: pointer;
+    }
+    .side.in{
+        transform: translateX(0);
+        transition: all 500ms;
+        position: fixed;
+        top:0;
+        left:0;
+    }
+    .menu-burger.in{
+        transition: all 500ms;
+        left:135px;
+    }
+    .content{
+        flex-grow: 0!important;
+        flex-shrink: 0!important;
+        flex-basis: fit-content!important;
+    }
+    .techno-main{
+        padding-top: 4rem!important;
     }
 }
 
@@ -64,3 +96,4 @@ body{
 .logo-technos{
     flex-wrap: wrap;
 }
+
