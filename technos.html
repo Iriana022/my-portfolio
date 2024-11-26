@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="output.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body class="bg-slate-700">
     <div class="menu-burger fixed top-8 left-8 text-slate-400">
@@ -49,12 +51,12 @@
 
         
         <div class="techno-main content pt-8 flex-1 flex text-slate-300 flex-col justify-center items-start px-12">
-            <i class="pt-8 fa-solid fa-screwdriver-wrench text-6xl"></i>
-            <h2 class="text-3xl uppercase py-3">
+            <i data-aos="fade-up" class="pt-8 fa-solid fa-screwdriver-wrench text-6xl"></i>
+            <h2 class="text-3xl uppercase py-3" data-aos-delay="100" data-aos="fade-up">
                 Languages et technologies
             </h2>
                 <div class="mt-5 flex gap-4 w-auto flex-wrap justify-between">
-                        <div class="fc shadow-lg shadow-slate-900/50 px-8 py-1 bg-slate-800  inline-block rounded-md">
+                        <div data-aos-delay="200" data-aos="fade-left" class="fc shadow-lg shadow-slate-900/50 px-8 py-1 bg-slate-800  inline-block rounded-md">
                             <h2 class="uppercase text-amber-200 underline underline-offset-8">Web</h2>
                             <ul class="py-2">
                                 <li>Html 5</li>
@@ -63,19 +65,19 @@
                                 <li>PHP</li>
                             </ul>
                         </div>
-                        <div class="fc shadow-lg shadow-slate-900/50 px-8 py-1 bg-slate-800  inline-block rounded-md">
+                        <div data-aos-delay="300" data-aos="fade-left" class="fc shadow-lg shadow-slate-900/50 px-8 py-1 bg-slate-800  inline-block rounded-md">
                             <h2 class="uppercase text-amber-200 underline underline-offset-8">Versionning</h2>
                             <ul class="py-2">
                                 <li>Git</li>
                             </ul>
                         </div>
-                        <div class="fc shadow-lg shadow-slate-900/50 px-8 py-1 bg-slate-800  inline-block rounded-md">
+                        <div data-aos-delay="400" data-aos="fade-left" class="fc shadow-lg shadow-slate-900/50 px-8 py-1 bg-slate-800  inline-block rounded-md">
                             <h2 class="uppercase text-amber-200 underline underline-offset-8">CMS</h2>
                             <ul class="py-2">
                                 <li>Wordpress</li>
                             </ul>
                         </div>
-                        <div class="fc shadow-lg shadow-slate-900/50 px-8 py-1 bg-slate-800  inline-block rounded-md">
+                        <div data-aos-delay="500" data-aos="fade-left" class="fc shadow-lg shadow-slate-900/50 px-8 py-1 bg-slate-800  inline-block rounded-md">
                             <h2 class="uppercase text-amber-200 underline underline-offset-8">Framework</h2>
                             <ul class="py-2">
                                 <li>TailwindCss</li>
@@ -85,7 +87,7 @@
                             </ul>
 
                         </div>
-                        <div class="fc shadow-lg shadow-slate-900/50 px-8 py-1 bg-slate-800  inline-block rounded-md">
+                        <div data-aos-delay="600" data-aos="fade-left" class="fc shadow-lg shadow-slate-900/50 px-8 py-1 bg-slate-800  inline-block rounded-md">
                             <h2 class="uppercase text-amber-200 underline underline-offset-8">Outils en ligne / local</h2>
                             <ul class="py-2">
                                 <li>Webpack</li>
@@ -113,13 +115,13 @@
 
                 </ul> -->
                 <div class="logo-technos mt-10 flex-row flex">
-                    <img class="me-4" src="assets/images/wp.png" alt="">
-                    <img class="me-4" src="assets/images/vue.png" alt="">
-                    <img class="me-4" src="assets/images/photoshop.png" alt="">
-                    <img class="me-4" src="assets/images/git.png" alt="">
-                    <img class="me-4" src="assets/images/tailwind-css.png" alt="">
-                    <img class="me-4" src="assets/images/html.png" alt="">
-                    <img class="me-4" src="assets/images/php.png" alt="">
+                    <img data-aos-delay="700" data-aos="fade-left" class="me-4" src="assets/images/wp.png" alt="">
+                    <img data-aos-delay="750" data-aos="fade-left" class="me-4" src="assets/images/vue.png" alt="">
+                    <img data-aos-delay="800" data-aos="fade-left" class="me-4" src="assets/images/photoshop.png" alt="">
+                    <img data-aos-delay="850" data-aos="fade-left" class="me-4" src="assets/images/git.png" alt="">
+                    <img data-aos-delay="900" data-aos="fade-left" class="me-4" src="assets/images/tailwind-css.png" alt="">
+                    <img data-aos-delay="950" data-aos="fade-left" class="me-4" src="assets/images/html.png" alt="">
+                    <img data-aos-delay="1000" data-aos="fade-left" class="me-4" src="assets/images/php.png" alt="">
                 </div>
                 <a href="mailto:dev32.irin@gmail.com">
                     <button class="shadow-md font-semibold shadow-amber-200/50 text-slate-500 uppercase btn bg-amber-200 mt-10 px-4 py-2 rounded-md">
@@ -131,6 +133,7 @@
 
         
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="index.js"></script>
 </body>
 </html>

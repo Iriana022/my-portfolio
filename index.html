@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="output.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body class="bg-slate-700">
     <div class="menu-burger fixed top-8 left-8 text-slate-400">
@@ -49,24 +51,25 @@
 
         <div class="content flex-1 flex text-slate-300 flex-col justify-center">
             <div class="px-12">
-                <i class="fa-solid fa-code text-6xl"></i>
-                <h1 class="text-5xl font-semibold pt-3">
+                <i data-aos="fade-up" class="fa-solid fa-code text-6xl"></i>
+                <h1 data-aos="fade-up" data-aos-delay="250" class="text-5xl font-semibold pt-3">
                     Iriana R.,
                 </h1>
-                <h2 class="text-3xl uppercase py-3">
+                <h2 data-aos="fade-up" data-aos-delay="500" class="text-3xl uppercase py-3">
                     Developpeur web
                 </h2>
-                <p class="text-1xl">
+                <p data-aos="fade-up" data-aos-delay="750" class="text-1xl">
                     Chaque projet est unique, c'est pourquoi je prends le temps de comprendre les besoins spécifiques de mes clients avant de commencer le développement. Que ce soit pour une refonte de site web, un site e-commerce ou une application web sur mesure, je travaille main dans la main avec mes clients pour créer des produits numériques qui non seulement répondent à leurs attentes, mais les surpassent.
                 </p>
                 <a href="mailto:dev32.irin@gmail.com">
-                    <button class="shadow-md font-semibold shadow-amber-200/50 text-slate-500 uppercase btn bg-amber-200 mt-10 px-4 py-2 rounded-md">
+                    <button data-aos="fade-up" data-aos-delay="1000" class="shadow-md font-semibold shadow-amber-200/50 text-slate-500 uppercase btn bg-amber-200 mt-10 px-4 py-2 rounded-md">
                         <i class="fa-regular fa-envelope me-2"></i>Contactez moi
                     </button>
                 </a>
             </div>
         </div>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="index.js"></script>
 </body>
 </html>
